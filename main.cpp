@@ -66,7 +66,7 @@ public:
         }
     }
 
-    void display() {  // Added missing display function
+    void display() {  
         if(isEmpty()) {
             cout << "Stack is empty" << endl;
             return;
